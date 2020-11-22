@@ -36,7 +36,7 @@ subtitle.style("font-family", "Roboto");
 
 
 //COMMENT
-comment = createDiv("Brrrrr! You are freezing us out. <br>Come again when you get hotter.");
+comment = createDiv("Brrrrr! You are freezing us out. <br>Come back when you get hotter.");
 comment.style("position", "absolute");
 comment.position(y_unit, windowHeight/3);
 comment.style("font-size", "25px");
