@@ -178,10 +178,10 @@ function stopCount() {
   var randomcounter = random(34, 41);
   var temperature = round(randomcounter, 1);
   if (temperature <35.5) {
-  window.open(url.origin + "/result1.html?yourTemperature=" + temperature, "_self")
+  window.open(url.origin + "2020-04-silviacasavola/result1.html?yourTemperature=" + temperature, "_self")
 } else if (temperature <37){
-  window.open(url.origin + "/result2.html?yourTemperature=" + temperature, "_self")
+  window.open(url.origin + "2020-04-silviacasavola/result2.html?yourTemperature=" + temperature, "_self")
 } else {
-  window.open(url.origin + "/result3.html?yourTemperature=" + temperature, "_self")
+  window.open(url.origin + "2020-04-silviacasavola/result3.html?yourTemperature=" + temperature, "_self")
 }
 }
