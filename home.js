@@ -5,7 +5,7 @@ function setup() {
 createCanvas(windowWidth, windowHeight);
 
 //LOAD THE BACKGROUND
-bg = loadImage("assets/background.jpg");
+bg = loadImage("./assets/background.jpg");
 
 
 //TITLE
