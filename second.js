@@ -179,9 +179,9 @@ function stopCount() {
   var temperature = round(randomcounter, 1);
   if (temperature <35.5) {
   window.open(url.origin + "/2020-04-silviacasavola/result1.html?yourTemperature=" + temperature, "_self")
-} else if (temperature <37){
+} else if (temperature >= 35.5 && temperature <37){
   window.open(url.origin + "/2020-04-silviacasavola/result2.html?yourTemperature=" + temperature, "_self")
-} else {
+} else if (temperature >= 37) {
   window.open(url.origin + "/2020-04-silviacasavola/result3.html?yourTemperature=" + temperature, "_self")
 }
 }
