@@ -14,7 +14,7 @@ let parameter = url.searchParams.get("yourTemperature");
 function setup() {
 let y_unit = windowHeight/20
 
-bg = loadImage("assets/background.jpg");
+bg = loadImage("./assets/background.jpg");
 
 createCanvas(windowWidth, windowHeight);
 
