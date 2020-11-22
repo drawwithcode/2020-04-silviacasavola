@@ -1,0 +1,21 @@
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: block;
+}
+
+.container {
+font-size: 30px;
+font-family: Roboto;
+text-align: center;
+border-style: dashed;
+/* padding: 3px; */
+height: 65%;
+width: 25%;
+left: 37.7%;
+top: 18%;
+border-width: 5px;
+position: absolute;
+}
